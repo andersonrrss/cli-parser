@@ -20,8 +20,9 @@ g++ ./examples/example.cpp ./src/cli_parser.cpp -o build/example -std=c++20 -Wal
 ```
 
 ## Exemplo de uso
-#include "cli_parser.h"
 ```cpp
+#include "cli_parser.h"
+
 int main(int argc, char* argv[])
 {
     CliParser parser;
