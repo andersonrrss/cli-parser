@@ -53,6 +53,15 @@ int main(int argc, char* argv[])
 
 ## Tratamento de erros
 
+Se o parsing falha, o método `parse` retorna `false` e é possível obter a mensagem com:
+```cpp
+parser.getLastErrorMessage();
+```
+Exemplos de erros detectados:
+- Flag não registrada
+- Argumentos insuficientes
+- Argumentos em excesso
+
 ## Licença
 
 Este projeto utiliza a Licença MIT. Veja o arquivo LICENSE para mais informações.
