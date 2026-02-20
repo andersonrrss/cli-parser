@@ -1,6 +1,9 @@
 # Cli Parser
 
-Um pequeno parser de linha de comando. O objetivo é definir uma forma de trabalhar com CLI sem precisar se dependências externas
+Um pequeno parser de linha de comando. O objetivo é definir uma forma de trabalhar com CLI sem precisar se dependências externas.
+
+> ⚠ Projeto pessoal utilizado em meus próprios projetos.
+> Não há intenção de publicação no NuGet público.
 
 ## Exemplo
 

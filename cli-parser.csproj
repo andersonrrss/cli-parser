@@ -1,7 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <PackageId>CliParser</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>andersonrrss</Authors>
+    <Description>Bilioteca pessoal pra parse de CLI</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/andersonrrss/cli-parser</RepositoryUrl>
+    <OutputType>Library</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>cli_parser</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
